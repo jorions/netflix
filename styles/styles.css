@@ -1,0 +1,161 @@
+html {
+    font-family: Arial;
+}
+
+.top {
+    background-color: #920200;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.top img {
+    display: block;
+    margin: auto;
+}
+
+form {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.wide {
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.thin {
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    width: 250px;
+    height: 35px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.error {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #920200;
+    border-bottom: solid 5px #920200;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.note {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    background-color: #920200;
+    color: #FFFFFF;
+    border-top: solid 5px #FFFFFF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.result {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    display: block;
+}
+
+.poster-movie, .poster-show {
+    /* Set to 30% for alternative style */
+    width: 40%;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    float: left;
+    overflow: hidden;
+}
+
+.poster-movie img {
+    margin: 5% auto;
+    display: block;
+    /* Set to 100% and remove shadow for alternative style */
+    max-height: 85%;
+    -moz-box-shadow: 0 0 20px #000000;
+    -webkit-box-shadow: 0 0 20px #000000;
+    box-shadow: 0 0 20px #000000;
+}
+
+.poster-show img {
+    margin: 5% auto;
+    display: block;
+    /* Set to 100% and remove max-height and shadow for alternative style */
+    max-width: 95%;
+    max-height: 85%;
+    -moz-box-shadow: 0 0 20px #000000;
+    -webkit-box-shadow: 0 0 20px #000000;
+    box-shadow: 0 0 20px #000000;
+}
+
+.info {
+    /* Set to 65% for alternative style */
+    width: 55%;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    margin-right: auto;
+    float: left;
+}
+
+.left {
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+}
+.right {
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    background: white;
+    top: 0px;
+    right: 0px;
+}
+
+.director {
+    font-style: italic;
+}
+
+.spacer {
+    position: relative;
+    height: 20px;
+    width: 100%;
+}
+
+.thin-red-spacer {
+    position: relative;
+    height: 5px;
+    width: 100%;
+    background-color: #920200;
+}
