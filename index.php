@@ -3,6 +3,8 @@
 <head>
     <title>Netflix Search</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/ico" />
 </head>
 <body>
 <?php
